@@ -39,7 +39,7 @@ function getPhrase() {
     "O amor e a alegria são contagiantes, espalhe-os.",
   ];
 
-  let randomIndex = Math.floor(Math.random() * phrase.length);
+  let randomIndex = Math.round(Math.random() * phrase.length);
   let phraseLucky = phrase[randomIndex];
   return phraseLucky;
 }
