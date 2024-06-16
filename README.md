@@ -14,4 +14,6 @@ Este projeto é um site interativo que foi utilizado:
 - Arrays
 
 ## Link 
-Para testar o projeto só clicar -> <a href="https://emilyssouza.github.io/BiscoitoDaSorte/">aqui</a> <-
+Para testar o projeto só clicar -> <a href="https://emilyssouza.github.io/BiscoitoDaSorte/">aqui</a> <- 
+<br> <br>
+<img width="400px" src="https://i.ibb.co/NYg4bzm/image.png" alt="image" border="0">
