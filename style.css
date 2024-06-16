@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(90deg, rgba(25,3,97,1) 0%, rgba(187,0,255,1) 100%);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background-color: #FFFFFF;
+  width: min(42.8rem, 90%);
+
+  margin: auto;
+  border-radius: 0.5rem;
+
+  text-align: center;
+
+  padding-top: 4.8rem;
+}
+
+/* Screen 1 */
+.screen1 h1, .screen2 h2 {
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1.4rem;
+  color: #34355B;
+  font-weight: bold;
+}
+
+.screen1 p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 2.0rem;
+  color: #34355B;
+}
+
+.screen1 img {
+  cursor: pointer; 
+  margin-bottom: 6.4rem;
+}
+
+.screen1 img:hover {
+  animation: shake 0.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(7px, 4px);
+  }
+  50% {
+    transform: translate(-7px, -4px);
+  }
+  75% {
+    transform: translate(7px, -4px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/*screen 2*/
+
+
+.hide {
+  display: none;
+}
+
+.screen2 h2 {
+  margin-bottom: 1.7rem;
+}
+
+.screen2 p {
+  background-color: #E4EDF1;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.4rem;
+
+  width: 29.3rem;
+  margin-inline: auto;
+  padding: 1rem;
+
+  box-shadow: 2.5px 2.5px rgb(209, 207, 207);
+
+  margin-bottom: 6.0rem;
+
+  transform: translate(-50%, -50%) scale(0.1);
+
+  opacity: 0;
+
+  animation: slideOut 2s forwards;
+
+}
+
+.screen2 button {
+  display: block;
+  background-color: #FF9500;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1.6rem;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 0.4rem;
+
+  align-items: center;
+  margin: auto;
+  margin-top: 5.4rem;
+  margin-bottom: 4.8rem;
+  cursor: pointer;
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translate(0, 120%) scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0, 20%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, -5%) scale(1);
+    opacity: 1;
+  }
+}
